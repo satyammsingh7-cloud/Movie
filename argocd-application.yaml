@@ -8,7 +8,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/satyammsingh7-cloud/app.git
+    repoURL: https://github.com/satyammsingh7-cloud/Movie.git
     targetRevision: main
     path: app
 
