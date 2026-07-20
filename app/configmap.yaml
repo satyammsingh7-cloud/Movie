@@ -105,8 +105,8 @@ data:
     <body>
 
       <header>
-        <h1>🎬 CineSVerSe</h1>
-        <p>Top Movie Recommendations Powered by SATYAM</p>
+        <h1>🎬 CineVerse</h1>
+        <p>Top Movie Recommendations Powered by Kubernetes & NGINX</p>
       </header>
 
       <section class="hero">
