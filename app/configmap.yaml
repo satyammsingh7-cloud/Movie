@@ -90,6 +90,7 @@ data:
 
         .rating {
           color: #fbbf24;
+          font-weight: bold;
         }
 
         footer {
@@ -105,8 +106,8 @@ data:
     <body>
 
       <header>
-        <h1>🎬 CineVerse</h1>
-        <p>Top Movie Recommendations Powered by Kubernetes & NGINX</p>
+        <h1>🎬 SineVerse</h1>
+        <p>Top Movie Recommendations Powered Satyam S</p>
       </header>
 
       <section class="hero">
@@ -201,19 +202,17 @@ data:
 
         const grid = document.getElementById("movies");
 
-        for (let i = 0; i < 50; i++) {
-          const movie = movies[i % movies.length];
-
+        movies.forEach((movie, index) => {
           grid.innerHTML += `
             <div class="card">
               <img src="${movie.poster}" alt="${movie.title}">
               <div class="card-content">
-                <h3>#${i + 1} ${movie.title}</h3>
+                <h3>#${index + 1} ${movie.title}</h3>
                 <div class="rating">⭐ ${movie.rating}/10</div>
               </div>
             </div>
           `;
-        }
+        });
       </script>
 
     </body>
