@@ -106,7 +106,7 @@ data:
 
       <header>
         <h1>🎬 CineVerse</h1>
-        <p>Top Movie Recommendations Powered by Kubernetes & NGINX</p>
+        <p>Top Movie Recommendations Powered by Satyam</p>
       </header>
 
       <section class="hero">
